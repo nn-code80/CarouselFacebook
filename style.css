@@ -39,6 +39,7 @@
     background-color: rgb(189, 202, 222);
     padding:40px;
     position: relative;
+
    
    
   }
@@ -73,7 +74,6 @@
     text-align: center;
     padding: 20px;
     background-color: white;
-
     border-radius: 0 0 10px 10px;
     padding: 30px;
   }
@@ -139,4 +139,10 @@
   @media(max-width: 599px){
     .swiper-button-next i, .swiper-button-prev i{
       display: none; 
+
+      .bottom p{
+        font-size: 0.9rem;
+        line-height: 1.6;
+      }
+
   }}
