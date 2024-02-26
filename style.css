@@ -1,0 +1,142 @@
+/* .swiper {
+    width: 600px;
+    height: 300px;
+  } */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+  body{
+    min-height: 100vh;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.swiper-slide{
+    
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.208);
+    border-radius: 10px;
+    color: rgb(32, 42, 70)
+    
+}
+
+  .swiper{
+    margin: 0 40px;
+
+ 
+  }
+
+  .maincontainer{
+    max-width: 1120px;
+    width: 95%;
+    background-color: rgb(189, 202, 222);
+    padding:40px;
+    position: relative;
+   
+   
+  }
+ 
+
+  .top{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+    padding:20px;
+    background-color: rgb(44, 85, 199);
+  }
+
+  .facebook{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+  }
+
+  .fa-brands{
+    font-size: 5.5rem;
+    color: white;
+  }
+
+  .bottom{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+
+    border-radius: 0 0 10px 10px;
+    padding: 30px;
+  }
+
+  .bottom h2{
+    padding:10px 0;
+  }
+
+  .bottom p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .button{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #4070f4;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+
+.button:hover{
+    background-color: #265df2;
+}
+
+
+.swiper-button-next i, .swiper-button-prev i{
+  width: initial;
+  position: relative;
+  height: initial; 
+  font-size: 2.5rem;
+  color: #4070f4;
+  /* display: none; */
+}
+
+
+.swiper-button-next i {
+
+  left: 5px;
+  
+  }
+  .swiper-button-prev i {
+    right: 5px}
+
+
+      .swiper-button-prev::after, .swiper-button-next::after {
+        display: none;
+     }
+
+     .swiper-pagination-bullet{
+      background-color: white !important;
+      opacity: 1 !important;
+  }
+  
+  .swiper-pagination-bullet-active{
+      background-color: #4070f4 !important;
+  } 
+
+  @media(max-width: 599px){
+    .swiper-button-next i, .swiper-button-prev i{
+      display: none; 
+  }}
