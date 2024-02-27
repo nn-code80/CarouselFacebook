@@ -138,11 +138,11 @@
 
   @media(max-width: 599px){
     .swiper-button-next i, .swiper-button-prev i{
-      display: none; 
+      display: none; }
 
       .bottom p{
         font-size: 0.9rem !important ;
         line-height: 1.6;
       }
 
-  }}
+  }
